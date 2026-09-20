@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Undangan pernikahan"
+    >
+
+    <title>
+        Wedding Invitation | [NAMA MEMPELAI PRIA] & [NAMA MEMPELAI WANITA]
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ==================================================
+     BACKGROUND MUSIC
+================================================== -->
+
+<audio
+    id="wedding-music"
+    src="assets/music/wedding-music.mp3"
+    loop
+    preload="auto">
+</audio>
+
+<!-- ==================================================
+     1. OPENING INVITATION
+================================================== -->
+<section id="opening" class="opening">
+
+    <video
+        class="opening-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+    >
+        <source
+            src="assets/video/wedding-opening.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+    </video>
+
+
+    <div class="opening-overlay">
+
+        <div class="guest-name-container">
+
+            <p class="guest-label">
+                Kepada Yth.
+            </p>
+
+            <h2
+                id="guest-name"
+                class="guest-name"
+            >
+                Nama Tamu
+            </h2>
+
+        </div>
+
+
+        <button
+            id="open-invitation"
+            class="opening-button"
+            type="button"
+        >
+            Open
+        </button>
+
+    </div>
+
+</section>
+
+
+    <!-- ==================================================
+         MAIN CONTENT
+    =================================================== -->
+
+    <main id="main-content" hidden>
+<!-- ==================================================
+     SECTION 1
+================================================== -->
+
+<section id="section-1" class="wedding-video-section">
+
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+    >
+        <source
+            src="assets/video/section-1.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+    </video>
+
+</section>
+<!-- ==================================================
+     SECTION 2
+================================================== -->
+
+<section id="section-2" class="wedding-video-section">
+
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+    >
+
+        <source
+            src="assets/video/section-2.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+
+    </video>
+
+</section>
+
+
+    <!-- SECTION 3 -->
+    <section id="section-3" class="wedding-video-section">
+
+        <video
+            class="wedding-section-video"
+            autoplay
+            muted
+            playsinline
+            preload="auto"
+        >
+            <source
+                src="assets/video/section-3.mp4"
+                type="video/mp4"
+            >
+        </video>
+
+    </section>
+<!-- ==================================================
+     SECTION 4 - COUNTDOWN
+================================================== -->
+
+<section
+    id="section-4"
+    class="wedding-video-section countdown-section"
+>
+
+    <!-- VIDEO CANVA -->
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    >
+
+        <source
+            src="assets/video/section-4.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+
+    </video>
+
+
+    <!-- COUNTDOWN OVERLAY -->
+    <div class="countdown-overlay">
+
+        <div class="countdown-title">
+            Our Day
+        </div>
+
+
+        <div class="countdown-timer">
+
+
+            <!-- DAYS -->
+            <div class="countdown-item">
+
+                <span
+                    id="days"
+                    class="countdown-number"
+                >
+                    00
+                </span>
+
+                <span class="countdown-label">
+                    DAYS
+                </span>
+
+            </div>
+
+
+            <!-- COLON -->
+            <span class="countdown-colon">
+                :
+            </span>
+
+
+            <!-- HOURS -->
+            <div class="countdown-item">
+
+                <span
+                    id="hours"
+                    class="countdown-number"
+                >
+                    00
+                </span>
+
+                <span class="countdown-label">
+                    HOURS
+                </span>
+
+            </div>
+
+
+            <!-- COLON -->
+            <span class="countdown-colon">
+                :
+            </span>
+
+
+            <!-- MINUTES -->
+            <div class="countdown-item">
+
+                <span
+                    id="minutes"
+                    class="countdown-number"
+                >
+                    00
+                </span>
+
+                <span class="countdown-label">
+                    MINUTES
+                </span>
+
+            </div>
+
+
+            <!-- COLON -->
+            <span class="countdown-colon">
+                :
+            </span>
+
+
+            <!-- SECONDS -->
+            <div class="countdown-item">
+
+                <span
+                    id="seconds"
+                    class="countdown-number seconds"
+                >
+                    00
+                </span>
+
+                <span class="countdown-label">
+                    SECONDS
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==================================================
+     SECTION 5 - GOOGLE MAPS
+================================================== -->
+
+<section
+    id="section-5"
+    class="wedding-video-section maps-section"
+>
+
+    <!-- VIDEO CANVA -->
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    >
+
+        <source
+            src="assets/video/section-5.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+
+    </video>
+
+
+    <!-- GOOGLE MAPS BUTTON OVERLAY -->
+    <div class="maps-button-overlay">
+
+        <a
+            class="google-maps-button"
+            href="https://maps.app.goo.gl/r5R5nHb9uSKD3ecS7"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Open Google Maps
+        </a>
+
+    </div>
+
+</section>
+<!-- ==================================================
+     SECTION 6
+================================================== -->
+
+<section
+    id="section-6"
+    class="wedding-video-section"
+>
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    >
+        <source
+            src="assets/video/section-6.mp4"
+            type="video/mp4"
+        >
+        Browser Anda tidak mendukung video.
+    </video>
+</section>
+<!-- ==================================================
+     SECTION 7 - RSVP + WEDDING WISHES
+================================================== -->
+
+<section
+    id="section-7"
+    class="wedding-video-section rsvp-section"
+>
+
+    <!-- CANVA BACKGROUND -->
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    >
+        <source
+            src="assets/video/section-7.mp4"
+            type="video/mp4"
+        >
+
+        Browser Anda tidak mendukung video.
+    </video>
+
+
+    <!-- ==================================================
+         RSVP OVERLAY
+    ================================================== -->
+
+    <div class="rsvp-overlay">
+
+        <!-- RSVP CARD -->
+        <div class="rsvp-card">
+
+            <div class="rsvp-title">
+                RSVP
+            </div>
+
+
+            <!-- FULL NAME -->
+            <div class="rsvp-field">
+
+                <label for="guest-name">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="rsvp-guest-name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                >
+
+            </div>
+
+
+            <!-- ATTENDANCE -->
+            <div class="rsvp-field">
+
+                <label>
+                    Attendance
+                </label>
+
+                <div class="attendance-buttons">
+
+                    <button
+                        type="button"
+                        class="attendance-button"
+                        data-attendance="Hadir"
+                    >
+                        Attending
+                    </button>
+
+                    <button
+                        type="button"
+                        class="attendance-button"
+                        data-attendance="Tidak Hadir"
+                    >
+                        Not Attending
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- WEDDING WISH -->
+            <div class="rsvp-field">
+
+                <label for="guest-wish">
+                    Wedding Wish
+                </label>
+
+                <textarea
+                    id="guest-wish"
+                    placeholder="Write your wish..."
+                ></textarea>
+
+            </div>
+
+
+            <!-- SUBMIT -->
+            <button
+                type="button"
+                id="rsvp-submit"
+                class="rsvp-submit-button"
+            >
+                Submit RSVP
+            </button>
+
+
+            <!-- STATUS -->
+            <div
+                id="rsvp-status"
+                class="rsvp-status"
+            ></div>
+
+        </div>
+
+
+        <!-- ==================================================
+             WEDDING WISHES
+        ================================================== -->
+
+        <div
+            id="wedding-wishes"
+            class="wedding-wishes"
+        >
+
+            <div class="wishes-title">
+                Wedding Wishes
+            </div>
+
+            <div class="wishes-subtitle">
+                Send your prayers & best wishes
+            </div>
+
+            <div
+                id="wishes-count"
+                class="wishes-count"
+            >
+                0 Wishes
+            </div>
+
+
+            <!-- WISHES LIST -->
+            <div
+                id="wishes-list"
+                class="wishes-list"
+            ></div>
+
+
+            <!-- PAGINATION -->
+            <div
+                id="wishes-pagination"
+                class="wishes-pagination"
+            ></div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==================================================
+     SECTION 8
+================================================== -->
+
+<section
+    id="section-8"
+    class="wedding-video-section"
+>
+    <video
+        class="wedding-section-video"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    >
+        <source
+            src="assets/video/section-8.mp4"
+            type="video/mp4"
+        >
+        Browser Anda tidak mendukung video.
+    </video>
+</section>
+
+    </main>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
